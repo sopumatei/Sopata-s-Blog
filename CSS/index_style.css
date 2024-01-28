@@ -176,3 +176,8 @@ header nav ul {
 .read-more-btn:hover::before {
     transform: scale(1.4);
 }
+
+/* FOOTER */
+#footer-text {
+    text-align: center;
+}
