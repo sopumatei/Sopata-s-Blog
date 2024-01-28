@@ -111,6 +111,10 @@ header nav ul {
     transform: scaleX(1);
 }
 
+#active::before {
+    transform: scaleX(1);
+}
+
 /* BLOG POST */
 .blog-post {
     display: flex;
