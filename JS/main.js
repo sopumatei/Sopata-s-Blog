@@ -26,3 +26,10 @@ function changeBtn() {
 }
 
 menuBtn.addEventListener('click', changeBtn);
+
+// MOBILE MENU
+const menu = document.getElementById('mobile-menu');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});
