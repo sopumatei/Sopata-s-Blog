@@ -46,6 +46,23 @@ img {
     border-radius: 0.5em;
 }
 
+a {
+    text-decoration: none;
+    color: var(--SECOND-COLOR);
+}
+
+a:hover {
+    color: var(--SECOND-COLOR);
+}
+
+a:active {
+    color: var(--SECOND-COLOR);
+}
+
+a:visited {
+    color: var(--SECOND-COLOR);
+}
+
 /* HEADER */
 header nav {
     z-index: 2;
@@ -156,7 +173,6 @@ header nav ul {
     position: fixed;
 
     background-color: var(--THIRD-COLOR);
-    color: var(--SECOND-COLOR);
     font-size: 1.3em;
 
     margin-top: 10vh;
@@ -175,6 +191,7 @@ header nav ul {
 }
 
 #mobile-menu .list-item {
+    color: var(--SECOND-COLOR);
     margin-bottom: 0.25em;
 }
 
