@@ -199,6 +199,55 @@ header nav ul {
     border-radius: 0.5em;
 }
 
+/* ABOUT */
+#about {
+    font-size: 1.5em;
+    padding: 0 10vw;
+}
+
+#about a {
+    text-decoration: none;
+    color: var(--ACCENT-COLOR);
+}
+
+#about a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--ACCENT-COLOR);
+}
+
+#about a:active {
+    color: var(--ACCENT-COLOR);
+}
+
+#about a:visited {
+    color: var(--ACCENT-COLOR);
+}
+
+#about .title {
+    text-align: center;
+    color: var(--ACCENT-COLOR);
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 1em;
+    line-height: 1.1em;
+}
+
+.highlight {
+    color: var(--ACCENT-COLOR);
+}
+
+.about-img {
+    margin: 1em auto;
+    width: min(50vw, 400px);
+    height: min(30vh, 300px);
+
+    border: 5px solid var(--ACCENT-COLOR);
+    border-radius: 100%;
+}
+
 /* FOOTER */
 #footer-text {
     text-align: center;
