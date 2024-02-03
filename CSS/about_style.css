@@ -241,8 +241,8 @@ header nav ul {
 
 .about-img {
     margin: 1em auto;
-    width: min(50vw, 400px);
-    height: min(30vh, 300px);
+    width: min(50vw, 300px);
+    height: min(50vw, 300px);
 
     border: 5px solid var(--ACCENT-COLOR);
     border-radius: 100%;
