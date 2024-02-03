@@ -243,6 +243,7 @@ header nav ul {
     margin: 1em auto;
     width: min(50vw, 300px);
     height: min(50vw, 300px);
+    image-orientation: flip;
 
     border: 5px solid var(--ACCENT-COLOR);
     border-radius: 100%;
