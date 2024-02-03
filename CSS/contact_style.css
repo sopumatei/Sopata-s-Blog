@@ -63,6 +63,10 @@ a:visited {
     color: var(--SECOND-COLOR);
 }
 
+ul {
+    list-style: none;
+}
+
 /* HEADER */
 header nav {
     z-index: 2;
@@ -197,6 +201,42 @@ header nav ul {
 
 #mobile-menu .list-item::before {
     border-radius: 0.5em;
+}
+
+/* ABOUT */
+#contact a {
+    text-decoration: none;
+    color: var(--MAIN-COLOR);
+}
+
+#contact a:visited {
+    color: var(--MAIN-COLOR);
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--ACCENT-COLOR);
+}
+
+#contact a:active {
+    color: var(--ACCENT-COLOR);
+}
+
+#contact {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#title {
+    color: var(--ACCENT-COLOR);
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+#contact li {
+    margin-bottom: 0.5em;
 }
 
 /* FOOTER */
