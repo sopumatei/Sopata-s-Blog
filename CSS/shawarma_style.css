@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -199,71 +200,36 @@ header nav ul {
     border-radius: 0.5em;
 }
 
-/* BLOG POST */
-.blog-post {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2em;
-}
+/* ARTICLES */
 
-.blog-post img {
-    width: min(800px, 80vw);
-}
+article {
+    padding: 0 10vw;
+    margin-bottom: 2.5em;
 
-.blog-container {
-    width: min(800px, 80vw);
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    gap: 2.5em;
 }
 
-.post-header {
-    margin-bottom: 1em;
+article img {
+    margin: 0 auto;
+    width: min(80vw, 1024px);
 }
 
-.post-description {
-    font-size: 1.2em;
-    font-weight: 520;
+.article-title {
+    text-decoration: underline;
+    color: var(--ACCENT-COLOR);
+    font-size: 2.2em;
 }
 
-.read-more-btn {
-    position: relative;
-    margin-top: 2em;
-    align-self: center;
-    font-size: 1.4em;
-    z-index: 1;
-    padding: 0.5em 0.75em;
-    font-weight: bold;
-    border-radius: 0.5em;
-    background-color: var(--SECOND-COLOR);
-    color: var(--MAIN-COLOR);
-    border: 2px solid var(--MAIN-COLOR);
-    overflow: hidden;
+.article-subtitle  {
+    font-size: 1.8em;
 }
 
-.read-more-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-color: var(--ACCENT-COLOR);
-    transform: scale(0);
-    border-radius: 100%;
-
-    transition: 0.2s transform ease-in-out;
-}
-
-.read-more-btn:hover {
-    cursor: pointer;
-}
-
-.read-more-btn:hover::before {
-    transform: scale(1.4);
+.article-p {
+    margin-top: -1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
 }
 
 /* FOOTER */
@@ -279,5 +245,15 @@ header nav ul {
 
     header nav ul {
         display: none;
+    }
+
+    article {
+        padding: 0 1em;
+    }
+
+    article img {
+        width: 100vw;
+        margin: 0 -1em;
+        border-radius: 0;
     }
 }
