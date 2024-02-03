@@ -2,7 +2,7 @@
 const footerTxt = document.getElementById('footer-text');
 let date = new Date;
 let currentYear = date.getFullYear();
-footerTxt.textContent = `© 2024-${currentYear} SqrtBlogs`;
+footerTxt.textContent = `© 2024-${currentYear} Sopata's Blog`;
 
 // MENU BUTTON UTILITY
 const menuBtn = document.getElementById('menu-btn');
