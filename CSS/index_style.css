@@ -272,7 +272,14 @@ header nav ul {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 500px) {
+    header nav h1 {
+        font-size: 1.5em;
+    }
+}
+
 @media (max-width: 858px) {
+
     #menu-btn {
         display: flex;
     }
